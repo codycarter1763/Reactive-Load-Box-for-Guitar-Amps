@@ -1,1 +1,1 @@
-# Reactive-Load-Box-for-Guitar-Amps
+# Reactive Load Box for Guitar Amps
