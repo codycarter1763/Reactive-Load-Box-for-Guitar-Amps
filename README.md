@@ -85,7 +85,7 @@ To make this design, the completed parts list is below. All of the parts are rat
 - 12 Ohm 1/2W Resistor
 - Dayton Audio 10mH 18 AWG Air Core Inductor
 - Dayton Audio 1mH 18 AWG Air Core Inductor
-- 2x 250uF Electrolytic Bipolar Capacitor (I used two in parallel to increase ripple current rating of the capacitors)
+- 2x 250uF Electrolytic Bipolar Capacitor (I used two in parallel to equal 500uF to increase ripple current rating of the capacitors)
 - Lehle LTHZ Line Transformer
 - Dual Gang Potentiometer 10k Audio
 - 2x 1/4" Mono Phone Jack
@@ -93,5 +93,13 @@ To make this design, the completed parts list is below. All of the parts are rat
 - Zulkit Metal Project Box (Any metal enclosure works here)
 
 # Layout
+The resistors are high power chassis mount resistors noted in the schematics. These mount directly to the metal enclosure to dissipate the heat from the attenuation.
+
+For mounting, I did not mount directly on the metal enclosure face since the inductance will be affected, so I used a 1/2” block of wood as a buffer under the inductors.
+![IMG_6346](https://github.com/user-attachments/assets/37344320-4b74-4406-a47c-fd8f52927488)
+![IMG_5392](https://github.com/user-attachments/assets/680b7913-2485-43e9-a28e-cbb5ca9648d9)
 
 # Conclusion
+The result was amazing! The sound coming out of the attentuator is noise free, dynamic, and perfect for running into my computer for impulse responses.
+
+I'd love for anyone to be able to build their own reactive load without having to spend 500 - 1000+. Feel free to use my design to make your own reactive load!
